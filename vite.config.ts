@@ -10,5 +10,13 @@ export default defineConfig({
       entry: resolve(__dirname, 'lib/index.ts'),
       name: 'VueBreakpointsPlugin',
     },
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
   },
 })
