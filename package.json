@@ -9,11 +9,11 @@
     "dist"
   ],
   "main": "./dist/vue-breakpoints-plugin.umd.js",
-  "module": "./dist/vue-breakpoints-plugin.es.js",
+  "module": "./dist/vue-breakpoints-plugin.mjs",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vue-breakpoints-plugin.es.js",
+      "import": "./dist/vue-breakpoints-plugin.mjs",
       "require": "./dist/vue-breakpoints-plugin.umd.js"
     }
   },
