@@ -12,6 +12,7 @@
   "module": "./dist/vue-breakpoints-plugin.es.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/vue-breakpoints-plugin.es.js",
       "require": "./dist/vue-breakpoints-plugin.umd.js"
     }
