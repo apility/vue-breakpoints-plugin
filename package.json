@@ -1,6 +1,6 @@
 {
   "name": "@apility/vue-breakpoints-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Vue plugin that provides breakpoints definition",
   "scripts": {
     "build": "tsc && vite build"
